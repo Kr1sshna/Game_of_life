@@ -15,8 +15,6 @@ I developed this simulation to explore:
 * **C Programming:** Efficient memory usage and logic implementation.
 * **Algorithmic Logic:** Iterating through grid generations and neighbor checking.
 
-It currently supports standard patterns (like Gliders and Oscillators) running directly in the terminal console.
-
 ## 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
@@ -78,5 +76,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## 👤 Author
 
-Kr1sshn
+Krishna
     GitHub: @Kr1sshna
