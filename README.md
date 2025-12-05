@@ -17,10 +17,6 @@ I developed this simulation to explore:
 
 It currently supports standard patterns (like Gliders and Oscillators) running directly in the terminal console.
 
-## 📸 Demo
-
-![Game Demo](https://via.placeholder.com/800x400?text=Run+the+code+to+see+the+simulation)
-
 ## 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
@@ -32,7 +28,7 @@ You need a C compiler (GCC or Clang) installed on your system.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/Kr1sshn/Game_of_life.git](https://github.com/Kr1sshna/Game_of_life.git)
+    git clone https://github.com/Kr1sshna/Game_of_life.git
     ```
 
 2.  **Navigate to the project directory**
@@ -51,3 +47,36 @@ Run the compiled executable from your terminal:
 
 ```bash
 ./game
+```
+
+## The Rules of Life
+The universe of the Game of Life is a grid of cells. Every cell interacts with its eight neighbors based on these four rules:
+
+1. **Underpopulation: A live cell with fewer than 2 live neighbors dies.**
+
+2. **Survival: A live cell with 2 or 3 live neighbors lives on to the next generation.**
+
+3. **Overpopulation: A live cell with more than 3 live neighbors dies.**
+
+4. **Reproduction: A dead cell with exactly 3 live neighbors becomes a live cell.**
+
+## 🔮 Future Improvements
+
+1. Implement a GUI (using SDL2 or Raylib) for better visualization.
+
+2. Add functionality to load custom patterns from a text file.
+
+3. Optimize for infinite grid handling.
+
+4.  Add raw key controls
+
+## 🤝 Contributing
+Contributions are welcome! If you have ideas for optimizing the logic or adding new features, feel free to fork the repository and submit a pull request.
+
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+## 👤 Author
+
+Kr1sshn
+    GitHub: @Kr1sshna
